@@ -1,0 +1,20 @@
+{
+    "name": "nomankhan70777/test",
+    "description": "Just for testing",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Test User",
+            "email": "test@example.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Joem\\App\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
